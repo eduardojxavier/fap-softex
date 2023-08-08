@@ -59,7 +59,7 @@ function imprimirListas(nomes,idades,corFavorita){
     for(j=0;j<idades.length;j++){
         console.log(j + "|" +idades[j])
     }
-
+ 
     console.log("\nLista de cores:")
     for(k=0;k<corFavorita.length;k++){
         console.log(k + "|" +corFavorita[k])

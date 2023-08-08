@@ -39,9 +39,9 @@ function inserirListas(nomes,idades,corFavorita){
     nome=prompt("Digite o nome: \n").toUpperCase();
     idade=prompt("Digite a idade: \n").toUpperCase();
     cor=prompt("Digite a cor favorita: \n").toUpperCase();
-    var adicionarNome=nomes.push(nome);
-    var adicionarIdade=idades.push(idade);
-    var adicionarCorFavorita=corFavorita.push(cor);
+    nomes.push(nome);
+    idades.push(idade);
+    corFavorita.push(cor);
     console.log(nomes)
        
 }
